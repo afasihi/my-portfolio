@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <AiOutlineMenu className="menu-icon" onClick={handleNav} />
+      <AiOutlineMenu className="menu-icon" size={30} onClick={handleNav} />
       {nav && (
         <div className="navbar-mobile">
           <a className="navbar-botton-mb">
@@ -30,10 +30,10 @@ const Navbar = () => {
         </div>
       ) }
        <div className="navbar-desktop">
-           <a className="navbar-botton-dt">
+           <a className="navbar-botton-dt" href="#home">
             <AiOutlineHome size={20} />
           </a>
-          <a className="navbar-botton-dt">
+          <a className="navbar-botton-dt" href="#work">
             <BsPerson size={20} />
           </a>
           <a className="navbar-botton-dt">

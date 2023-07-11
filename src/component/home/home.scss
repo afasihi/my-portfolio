@@ -1,4 +1,4 @@
-.home {
+#home {
   height: 100vh;
   width: 100vw;
   background: url('../../assets/showcase.jpg') no-repeat center ;
@@ -8,15 +8,18 @@
   justify-content: center;
   align-items: center;
   font-size: 2.5rem;
-  font-weight: 600;
-  span {
+  h3 {
     color: #f7fafc;
+    font-weight: bold;
+    margin: 0;
   }
 }
 
 .type-animation {
   margin: 0.5rem;
   color: #f7fafc;
+  font-weight: 500;
+
 }
 
 .social-media {

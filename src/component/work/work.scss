@@ -1,0 +1,59 @@
+#work {
+  max-width: 768px;
+  margin: auto;
+  padding: 4rem 2rem;
+  h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  @media (min-width: 768px) {
+    padding: 4rem 5rem;
+  }
+}
+
+.content {
+  border-left: 2px lightgray solid;
+  margin: 0;
+}
+
+.list {
+  position: relative;
+  .space {
+    height: 20px;
+  }
+  .dot {
+    position: absolute;
+    left: -2.9rem;
+    top: 2rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: lightgray;
+    border-radius: 50%;
+  }
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  .title {
+    color: #3e4396;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .company {
+    color: rgb(102, 101, 101);
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .duration {
+    color:gray;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}

@@ -4,8 +4,8 @@ import "./home.scss";
 
 const Home = () => {
   return (
-    <div className="home">
-      <span>Abderrahman Fasihi</span>
+    <div id="home">
+      <h3>Abderrahman Fasihi</h3>
       <TypeAnimation
         sequence={[
           "Front-End Developer",
