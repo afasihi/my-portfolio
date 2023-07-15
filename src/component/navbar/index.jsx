@@ -15,16 +15,16 @@ const Navbar = () => {
       <AiOutlineMenu className="menu-icon" size={30} onClick={handleNav} />
       {nav && (
         <div className="navbar-mobile">
-          <a className="navbar-botton-mb">
+          <a className="navbar-botton-mb" href="#home" onClick={() => setNav(false)} >
             <AiOutlineHome size={20} /> <span>Home</span>
           </a>
-          <a className="navbar-botton-mb">
-            <BsPerson size={20} /> <span>About</span>
+          <a className="navbar-botton-mb" href="#work" onClick={() => setNav(false)}>
+            <BsPerson size={20} /> <span>Work</span>
           </a>
-          <a className="navbar-botton-mb">
-            <AiOutlineProject size={20} /> <span>Work</span>
+          <a className="navbar-botton-mb" href="#projects" onClick={() => setNav(false)}>
+            <AiOutlineProject size={20} /> <span>Projects</span>
           </a>
-          <a className="navbar-botton-mb">
+          <a className="navbar-botton-mb" onClick={() => setNav(false)}>
             <AiOutlineMail size={20} /> <span>Contact</span>
           </a>
         </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
           <a className="navbar-botton-dt" href="#work">
             <BsPerson size={20} />
           </a>
-          <a className="navbar-botton-dt">
+          <a className="navbar-botton-dt" href="#projects">
             <AiOutlineProject size={20} />
           </a>
           <a className="navbar-botton-dt">

@@ -2,7 +2,6 @@
 const WorkItem = ({ data }) => {
   const { companyName, title, startDate, endDate, duration, description } =
     data;
-    console.log({data});
 
   return (
     <ul className="content">
